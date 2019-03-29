@@ -84,3 +84,35 @@ class LinkedList(object):
         if current is None:
             raise ValueError('List doesn\'t contain the element.')
         return current
+
+
+'''
+n1 = Node(1)
+n2 = Node(2)
+n3 = Node(3)
+n4 = Node(4)
+
+# Start setting up a LinkedList
+ll = LinkedList(n1)
+ll.append(n2)
+ll.append(=n3)
+
+# Should print 3
+print ll.head.next.next.value
+# Should also print 3
+print ll.get_position(3).value
+
+
+ll.insert(n4,3)
+# Should print 4 now
+print ll.get_position(3).value
+
+
+ll.delete(1)
+# Should print 2 now
+print ll.get_position(1).value
+# Should print 4 now
+print ll.get_position(2).value
+# Should print 3 now
+print ll.get_position(3).value
+'''
