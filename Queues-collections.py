@@ -1,4 +1,4 @@
-from collections import dque
+from collections import deque
 
 queue = deque(['Bill','Elon','Steve'])
 queue.append('Warren')
